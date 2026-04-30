@@ -433,10 +433,10 @@ One of the most helpful core modules is `core/str` which allows you to fetch and
 
 The `core/str` module has several core methods to support fetching strings:
 
-- `getString` - fetch a single string, returned in a _native_ Promise
-- `getStrings` - fetch a set of strings, returned in an array of _native_ Promises
+- `getString` - fetch a single string, returned in a _native_
+- `getStrings` - fetch a set of strings, returned in a _native_ Promise
 - `get_string` - fetch a single string, returned in a _jQuery_ Promise
-- `get_strings` - fetch a set of strings, returned in an array of _jQuery_ Promises
+- `get_strings` - fetch a set of strings, returned in a _jQuery_ Promise
 
 Strings are fetched on request from Moodle, and are then cached in LocalStorage.
 
